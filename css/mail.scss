@@ -299,16 +299,17 @@
 	font-weight: bold;
 }
 
-#mail-messages .action.delete {
+/* Show more icon */
+#mail-messages .toggle-menu {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	padding: 20px;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
 	opacity: .15;
 }
-#mail-messages .action.delete:hover,
-#mail-messages .action.delete:focus {
+#mail-messages .action.toggle-menu:hover,
+#mail-messages .action.toggle-menu:focus {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 	opacity: .5;
 }
@@ -488,7 +489,6 @@ input.submit-message,
 .unread ul {
 	font-weight: normal;
 }
-
 
 .avatar {
 	width: 32px;

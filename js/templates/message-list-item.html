@@ -30,12 +30,28 @@
 			{{subject}}
 		</div>
 		<div class="date">
-				<span class="modified live-relative-timestamp"
-					data-timestamp="{{dateMicro}}"
-					title="{{formatDate dateInt}}">
-					{{relativeModifiedDate dateInt}}
-				</span>
+			<span class="modified live-relative-timestamp"
+				data-timestamp="{{dateMicro}}"
+				title="{{formatDate dateInt}}">
+				{{relativeModifiedDate dateInt}}
+			</span>
 		</div>
-		<div class="icon-delete action delete" title="{{delete}}"></div>
+		<div class="app-content-list-item-menu">
+			<div class="icon-more toggle-menu"></div>
+			<div class="popovermenu">
+				<ul>
+					<li>
+						<button class="icon-mail menuitem action-toggle-read">
+							<span>{{ t 'Toggle read' }}</span>
+						</button>
+					</li>
+					<li>
+						<button class="icon-delete menuitem action-delete">
+							<span>{{ t 'Delete' }}</span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </div>

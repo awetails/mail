@@ -2,6 +2,9 @@
 composer.phar
 /vendor/
 
+# prettier
+.prettierrc
+
 # Unnecessary bower dependency files
 /js/vendor/jquery/src/*
 /js/vendor/ical.js/samples/*
