@@ -36,7 +36,7 @@
 		</p>
 	</div>
 <?php else: ?>
-	<div class="error">
+	<div class="error" style="text-align: center;">
 		<h2><?php p($l->t('Redirect')); ?></h2>
 		<p><?php p($l->t('The link leads to %s', array($_['urlHost']))); ?></p>
 		<p><?php print_unescaped($l->t('If you don’t want to visit that page, you can return to <a href="%s">Mail</a>.',
